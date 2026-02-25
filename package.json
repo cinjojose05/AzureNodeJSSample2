@@ -1,0 +1,23 @@
+{
+  "name": "azurenodejssample2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/cinjojose05/AzureNodeJSSample2#readme",
+  "bugs": {
+    "url": "https://github.com/cinjojose05/AzureNodeJSSample2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinjojose05/AzureNodeJSSample2.git"
+  },
+  "license": "ISC",
+  "author": "Cinjo",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
