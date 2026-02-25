@@ -6,6 +6,8 @@ app.get('/', (req, res) => {
     res.send('Hello Cinjo! This is a sample Node.js application running on Azure App Service.');
 });
 
-app.listen(port, () => {
-    console.log(`App is running on port ${port}`);
-});
+app.listen(process.env.PORT || port);
+
+// app.listen(port, () => {
+//     console.log(`App is running on port ${port}`);
+// });
